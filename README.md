@@ -59,6 +59,7 @@ MQTT_HOST=yourmqtthost.com
 MQTT_PORT=10444
 MQTT_USERNAME=username123
 MQTT_PASSWORD=password123#
+MQTT_CLIENTID=abcabc_11
 ```
 
 Now adonis-mqtt is ready for use. 

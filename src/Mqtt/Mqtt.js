@@ -143,6 +143,7 @@ class Mqtt {
     const options = {
       username: (this.Config.get('mqtt.username') != '') ? this.Config.get('mqtt.username') : null,
       password: (this.Config.get('mqtt.password') != '') ? this.Config.get('mqtt.password') : null,
+      clientId: (this.Config.get('mqtt.clientId') != '') ? this.Config.get('mqtt.clientId') : null,
 
       // Necessary only if the server requires client certificate authentication
       key: (fs.existsSync(this.Config.get('mqtt.key'))) ? fs.readFileSync(this.Config.get('mqtt.key')) : null,
